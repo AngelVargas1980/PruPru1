@@ -44,7 +44,7 @@ public class LibroController {
    
     
     public String guardarLibro2(Libro libro){        
-        String sql = "INSERT INTO sistemabiblioteca0.libro(numero_libro, nombre, pasta, editorial, publicacion, genero_idgenero) ";
+        String sql = "INSERT INTO sitemabiblioteca0.libro(numero_libro, nombre, pasta, editorial, publicacion, genero_idgenero) ";
              sql += " VALUES(?,?,?,?,?,?)";              
        try{     
             abrirConexion();
@@ -67,7 +67,7 @@ public class LibroController {
     }
     
     public void getLibros2(StringBuffer respuesta){   
-        String sql="select * from sistemabiblioteca0.libro";
+        String sql="select * from sitemabiblioteca0.libro";
         try{
         abrirConexion();
         respuesta.setLength(0);       

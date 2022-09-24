@@ -54,6 +54,10 @@ public class Libro {
         return editorial;
     }
     
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+    
      public String getPublicacion() {
         return publicacion;
     }
@@ -64,9 +68,7 @@ public class Libro {
         
     }
 
-    public void setEditorial(String editorial) {
-        this.editorial = editorial;
-    }
+    
         public int getTipo() {
         return tipo;
     }

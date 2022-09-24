@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class ConexionBaseDeDatos {
     
-    private String url="jdbc:mysql://localhost:3306/sistemabiblioteca0";//url de MySQL
+    private String url="jdbc:mysql://localhost:3306/sitemabiblioteca0";//url de MySQL
     private String usuario="root";// usuario de mysql local
     private String clave="root"; 
     private Connection conexion=null;  

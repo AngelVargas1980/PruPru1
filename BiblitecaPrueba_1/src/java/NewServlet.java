@@ -6,7 +6,7 @@
 
 import Clases.Libro;
 import Clases.LibroController;
-import Clases.ConexionBaseDeDatos;
+//import Clases.ConexionBaseDeDatos;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
@@ -23,7 +23,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class NewServlet extends HttpServlet {
     Libro libro;
     LibroController registroLibro;
-     Libro[] librosRegistrados;
+    //Libro[] librosRegistrados;
      StringBuffer objetoRespuesta = new StringBuffer();
     
     /**
