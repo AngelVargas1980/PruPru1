@@ -43,6 +43,7 @@ public class LibroController {
     }    
    
     
+    
     public String guardarLibro2(Libro libro){        
         String sql = "INSERT INTO sitemabiblioteca0.libro(numero_libro, nombre, pasta, editorial, publicacion, genero_idgenero) ";
              sql += " VALUES(?,?,?,?,?,?)";              

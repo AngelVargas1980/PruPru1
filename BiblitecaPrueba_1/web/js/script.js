@@ -1,4 +1,3 @@
-
 //alert('Angel recuerda que tus datos fueron eliminaos');
 
 function enviarFormularioOpcion2(){
